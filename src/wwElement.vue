@@ -1,5 +1,5 @@
 <template>
-  <div class="spread-ss">
+  <div v-if="!content.portalTarget || content.portalTarget === 'admin'" class="spread-ss">
     <!-- Header -->
     <div class="spread-ss__header">
       <h2 class="spread-ss__title">Service Status</h2>

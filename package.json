@@ -1,6 +1,6 @@
 {
   "name": "admin-service-status",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Admin service status alert panel for Spread.co — create, approve, send, and resolve service alerts",
   "scripts": {
     "build": "weweb build --name=admin-service-status --type=element",
