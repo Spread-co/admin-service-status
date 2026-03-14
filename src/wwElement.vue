@@ -1204,5 +1204,14 @@ export default {
   .spread-ss__title { font-size: 16px; }
   .spread-ss__modal { width: 100%; border-radius: 0; bottom: 0; top: auto; transform: none; }
 }
+@media (min-width: 480px) {
+  .spread-ss { padding: 18px; }
+}
+@media (min-width: 1024px) {
+  .spread-ss { padding: 24px 32px; }
+}
+@media (min-width: 1280px) {
+  .spread-ss { padding: 28px 40px; }
+}
 @keyframes spread-perm-spin { to { transform: rotate(360deg); } }
 </style>
